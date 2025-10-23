@@ -44,3 +44,52 @@ GitHub: Farhan Arbi Utomo (Chieellesaxions)
 IG: @arbiifarhan / @chieellesaxions
 
 Email: farhanarbiutomo1@email.com
+
+
+# 🚀 Basic C Programming — Pemrograman Dasar Bahasa C
+
+Hey everyone! 👋  
+This repository contains my learning progress about the **C programming language** — the legendary language that became the foundation for many modern ones.  
+I upload my work here to **track my own progress** and **help other learners** who are also studying the basics of C. 💡
+
+---
+
+## 📚 Topics Covered
+- 🖥️ `hello_world.c` — the classic first program 😎  
+- 🔁 `looping.c` — introduction to for, while, and do-while loops  
+- 🧩 `if_else.c` — basic conditional branching  
+- 📦 `array.c` — working with one-dimensional arrays  
+- ⚙️ `fungsi.c` — learning how to create and call functions  
+
+---
+
+## ⚡ How to Run the Program
+Make sure you have a C compiler like **GCC** installed.  
+Then run the commands below in your terminal:
+```bash
+gcc filename.c -o output
+./output
+```
+## 🧠 Purpose of This Repository
+
+“Programming isn’t about how fast you memorize syntax — it’s about how well you understand the logic behind it.”
+
+I created this repo to:
+
+Sharpen my logic and algorithmic thinking
+
+Serve as a personal learning archive
+
+Share basic C programming examples with fellow students
+
+Build a small personal portfolio on GitHub 😎
+
+🧩 Contact / Connect
+
+If you’d like to discuss or learn together, feel free to reach out:
+
+GitHub: Farhan Arbi Utomo (Chieellesaxions)
+
+Instagram: @arbiifarhan / @chieellesaxions
+
+Email: farhanarbiutomo1@gmail.com
