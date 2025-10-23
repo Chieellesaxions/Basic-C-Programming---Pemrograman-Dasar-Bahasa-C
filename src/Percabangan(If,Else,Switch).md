@@ -149,6 +149,3 @@ Di bab ini lo udah belajar:
 * Kapan sebaiknya pakai yang mana
 
 
----
-
-Mau aku lanjutin sekalian ke bab **Perulangan (For, While, Do-While)** biar buku lo lanjut next step?
