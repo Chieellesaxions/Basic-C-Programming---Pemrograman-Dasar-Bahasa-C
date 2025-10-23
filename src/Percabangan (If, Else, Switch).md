@@ -120,7 +120,7 @@ switch (variabel) {
 
 ## ✅ Output Contoh
 
-```
+```yaml
 Masukkan nilai kamu (0-100): 85
 Nilai kamu B (Bagus, pertahankan!)
 
