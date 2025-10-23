@@ -102,7 +102,5 @@ Di bab ini lo udah belajar gimana caranya program bisa **berkomunikasi dua arah*
 * Gunakan `scanf()` buat input
 * Pahami format data dan simbol `%`
 
-Next : [Variabel dan Tipe Data](src/Variabel-Tipe-Data.md)
-
 ---
 
