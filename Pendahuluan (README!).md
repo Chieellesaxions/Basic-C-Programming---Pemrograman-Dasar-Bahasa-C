@@ -8,8 +8,7 @@ Gue upload biar bisa track progres sendiri + bantu temen-temen lain yang juga la
 ---
 
 ## 📚 Materi yang Dibahas
-- 🖥️ `Basic-C-Programming---Pemrograman-Dasar-Bahasa-C
-/src/hello_world.c` — program pertama, wajib banget 😎  
+- 🖥️ `hello_world.c` — program pertama, wajib banget 😎  
 - 🔁 `looping.c` — kenalan sama for, while, dan do-while  
 - 🧩 `if_else.c` — percabangan kondisi  
 - 📦 `array.c` — mainan array 1D  
