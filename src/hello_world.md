@@ -21,6 +21,7 @@ int main() {
 ## 🧠 Penjelasan Program
 
 Program ini adalah program pertama dalam bahasa C.
+
 Tujuannya sederhana: menampilkan teks "Hello World!" ke layar — tapi dari sini, lo udah ngerti struktur dasar program C 😎
 
 ## 📖 Penjabaran Baris Demi Baris
@@ -60,3 +61,4 @@ Dengan cuma beberapa baris, lo udah berhasil bikin program pertama yang:
 - Menghasilkan output ke layar
 
 - Siap dikembangkan ke tahap berikutnya
+
