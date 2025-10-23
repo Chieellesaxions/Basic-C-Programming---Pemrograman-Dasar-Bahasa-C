@@ -1,7 +1,5 @@
-
----
-
 # 🧩 2. Input & Output — Interaksi Dasar dengan User
+
 
 ```c
 // Filename: input_output.c
@@ -86,7 +84,7 @@ Setiap kali pakai `scanf()` atau `printf()`, kita butuh *format specifier* biar 
 
 ✅ **Output Program**
 
-```
+```yaml
 Masukkan nama kamu: Farhan
 Masukkan umur kamu: 19
 
@@ -104,7 +102,7 @@ Di bab ini lo udah belajar gimana caranya program bisa **berkomunikasi dua arah*
 * Gunakan `scanf()` buat input
 * Pahami format data dan simbol `%`
 
-Selanjutnya, kita bakal masuk ke **bab 3: Percabangan (if/else)** biar program lo bisa mikir dan ambil keputusan sendiri 🧠💪
+Next 
 
 ---
 
