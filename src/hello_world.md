@@ -47,6 +47,7 @@ int main() {         // Fungsi utama
 ## 💡 Fun Fact
 
 🔸 “Hello, World!” pertama kali digunakan pada tahun 1972 oleh Brian Kernighan, salah satu pencipta bahasa C.
+
 🔸 Sampai sekarang, ini jadi tradisi global setiap orang belajar bahasa baru.
 
 ✅ Output Program
@@ -61,4 +62,5 @@ Dengan cuma beberapa baris, lo udah berhasil bikin program pertama yang:
 - Menghasilkan output ke layar
 
 - Siap dikembangkan ke tahap berikutnya
+
 
