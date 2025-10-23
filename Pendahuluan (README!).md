@@ -8,7 +8,7 @@ Gue upload biar bisa track progres sendiri + bantu temen-temen lain yang juga la
 ---
 
 ## 📚 Materi yang Dibahas
-1. [Hello World — Program Pertama](src/hello_world.c)
+1. [Hello World — Program Pertama](src/hello_world.md)
 2. [Input & Output Dasar](src/input_output.c)
 3. [Variabel dan Tipe Data](Basic-C-Programming---Pemrograman-Dasar-Bahasa-C/src/variables.c)
 4. [Percabangan (If, Else, Switch)](Basic-C-Programming---Pemrograman-Dasar-Bahasa-C/src/if_else.c)
