@@ -72,24 +72,18 @@ gcc filename.c -o output
 ```
 ## 🧠 Purpose of This Repository
 
-“Programming isn’t about how fast you memorize syntax — it’s about how well you understand the logic behind it.”
+> “Programming isn’t about how fast you memorize syntax — it’s about how well you understand the logic behind it.”
 
 I created this repo to:
-
-Sharpen my logic and algorithmic thinking
-
-Serve as a personal learning archive
-
-Share basic C programming examples with fellow students
-
-Build a small personal portfolio on GitHub 😎
+- Sharpen my logic and algorithmic thinking
+- Serve as a personal learning archive
+- Share basic C programming examples with fellow students
+- Build a small personal portfolio on GitHub 😎
 
 🧩 Contact / Connect
 
 If you’d like to discuss or learn together, feel free to reach out:
 
-GitHub: Farhan Arbi Utomo (Chieellesaxions)
-
-Instagram: @arbiifarhan / @chieellesaxions
-
-Email: farhanarbiutomo1@gmail.com
+GitHub    : Farhan Arbi Utomo (Chieellesaxions)
+Instagram : @arbiifarhan / @chieellesaxions
+Email     : farhanarbiutomo1@gmail.com
