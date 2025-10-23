@@ -85,5 +85,7 @@ I created this repo to:
 If you’d like to discuss or learn together, feel free to reach out:
 
 GitHub    : Farhan Arbi Utomo (Chieellesaxions)
+
 Instagram : @arbiifarhan / @chieellesaxions
+
 Email     : farhanarbiutomo1@gmail.com
