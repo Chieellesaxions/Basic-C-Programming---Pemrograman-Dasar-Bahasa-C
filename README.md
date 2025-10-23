@@ -12,7 +12,7 @@ Gue upload biar bisa track progres sendiri + bantu temen-temen lain yang juga la
 2. [Input & Output Dasar](src/input_output.md)
 3. [Variabel dan Tipe Data](src/Variabel-Tipe-Data.md)
 4. [Percabangan (If, Else, Switch)](/src/Percabangan(If,Else,Switch).md)
-5. [Perulangan (For, While, Do-While)](Basic-C-Programming---Pemrograman-Dasar-Bahasa-C/src/looping.c)
+5. [Perulangan (For, While, Do-While)](src/looping.md)
 6. [Array](Basic-C-Programming---Pemrograman-Dasar-Bahasa-C/src/array.c)
 7. [Fungsi (Function)](Basic-C-Programming---Pemrograman-Dasar-Bahasa-C/src/fungsi.c)
 
