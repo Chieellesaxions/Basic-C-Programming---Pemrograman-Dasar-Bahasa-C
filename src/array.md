@@ -154,5 +154,5 @@ Melalui contoh ini, Anda telah memahami:
 
 ---
 
-← [Bab Sebelumnya](looping.md) | [Bab Selanjutnya](function.md) →
+← [Bab  5 : Perulangan (For, While, Do-While) — Mengulang Aksi Secara Efisien](looping.md) | [Bab  7 : Fungsi (Function) dalam Bahasa C](function.md) →
 
