@@ -146,8 +146,9 @@ Meski terlihat sederhana, konsep ini merupakan **pondasi utama** dari seluruh pr
 
 ---
 
-← [Pendahuluan](README.md) | [Bab 2: Input dan Output](input_output.md) →
+← [Pendahuluan](../README.md) | [Bab 2: Input dan Output](input_output.md) →
 
 ---
+
 
 
