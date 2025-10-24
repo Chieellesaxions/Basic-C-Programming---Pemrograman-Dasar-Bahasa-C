@@ -8,13 +8,13 @@ Gue upload biar bisa track progres sendiri + bantu temen-temen lain yang juga la
 ---
 
 ## 📚 Materi yang Dibahas
-1. [Hello World — Program Pertama](src/hello_world.md)
-2. [Input & Output Dasar](src/input_output.md)
-3. [Variabel dan Tipe Data](src/Variabel-Tipe-Data.md)
-4. [Percabangan (If, Else, Switch)](/src/Percabangan(If,Else,Switch).md)
-5. [Perulangan (For, While, Do-While)](src/looping.md)
-6. [Array](Basic-C-Programming---Pemrograman-Dasar-Bahasa-C/src/array.c)
-7. [Fungsi (Function)](Basic-C-Programming---Pemrograman-Dasar-Bahasa-C/src/fungsi.c)
+1. [Hello World — Program Pertama](src/hello_world.md)  (INDONESIA)
+2. [Input & Output Dasar](src/input_output.md)  (INDONESIA)
+3. [Variabel dan Tipe Data](src/Variabel-Tipe-Data.md)  (INDONESIA)
+4. [Percabangan (If, Else, Switch)](/src/Percabangan(If,Else,Switch).md)  (INDONESIA)
+5. [Perulangan (For, While, Do-While)](src/looping.md)  (INDONESIA)
+6. [Array](Basic-C-Programming---Pemrograman-Dasar-Bahasa-C/src/array.c)  (INDONESIA)
+7. [Fungsi (Function)](Basic-C-Programming---Pemrograman-Dasar-Bahasa-C/src/fungsi.c)  (INDONESIA)
 
 ---
 
