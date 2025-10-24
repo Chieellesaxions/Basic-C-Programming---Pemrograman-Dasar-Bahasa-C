@@ -13,7 +13,7 @@ Gue upload biar bisa track progres sendiri + bantu temen-temen lain yang juga la
 3. [Variabel dan Tipe Data](src/Variabel-Tipe-Data.md)  (INDONESIA)
 4. [Percabangan (If, Else, Switch)](/src/Percabangan(If,Else,Switch).md)  (INDONESIA)
 5. [Perulangan (For, While, Do-While)](src/looping.md)  (INDONESIA)
-6. [Array](Basic-C-Programming---Pemrograman-Dasar-Bahasa-C/src/array.c)  (INDONESIA)
+6. [Array](/src/array.md)  (INDONESIA)
 7. [Fungsi (Function)](Basic-C-Programming---Pemrograman-Dasar-Bahasa-C/src/fungsi.c)  (INDONESIA)
 
 ---
