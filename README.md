@@ -1,93 +1,123 @@
-# Basic-C-Programming---Pemrograman-Dasar-Bahasa-C
 
 
-Hai semua! 👋  
-Repo ini isinya hasil belajar gue tentang **bahasa C** — bahasa legendaris yang jadi pondasi banyak bahasa modern.  
-Gue upload biar bisa track progres sendiri + bantu temen-temen lain yang juga lagi belajar dasar-dasarnya 💡
+# 🧠 **Basic-C-Programming — Pemrograman Dasar Bahasa C**
 
----
-
-## 📚 Materi yang Dibahas
-1. [Hello World — Program Pertama](src/hello_world.md)  (INDONESIA)
-2. [Input & Output Dasar](src/input_output.md)  (INDONESIA)
-3. [Variabel dan Tipe Data](src/Variabel-Tipe-Data.md)  (INDONESIA)
-4. [Percabangan (If, Else, Switch)](/src/Percabangan(If,Else,Switch).md)  (INDONESIA)
-5. [Perulangan (For, While, Do-While)](src/looping.md)  (INDONESIA)
-6. [Array](/src/array.md)  (INDONESIA)
-7. [Fungsi (Function)](src/function.md)  (INDONESIA)
+Hai semuanya! 👋
+Repositori ini berisi hasil pembelajaran saya tentang **bahasa pemrograman C** — bahasa legendaris yang menjadi pondasi bagi banyak bahasa modern saat ini.
+Saya buat repo ini untuk **melacak progres belajar pribadi** sekaligus **berbagi ilmu** dengan teman-teman yang juga sedang mempelajari dasar-dasar bahasa C. 💡
 
 ---
 
-## ⚡ Cara Jalankan Program
-Pastikan kamu udah install compiler kayak GCC.  
-Jalankan command di terminal:
+## 📚 **Materi yang Dibahas**
+
+1. [Hello World — Program Pertama](src/hello_world.md)
+2. [Input & Output Dasar](src/input_output.md)
+3. [Variabel dan Tipe Data](src/Variabel-Tipe-Data.md)
+4. [Percabangan (If, Else, Switch)](src/Percabangan%28If,Else,Switch%29.md)
+5. [Perulangan (For, While, Do-While)](src/looping.md)
+6. [Array](src/array.md)
+7. [Fungsi (Function)](src/function.md)
+
+📘 Semua materi ditulis dalam **Bahasa Indonesia**, agar mudah dipahami oleh mahasiswa dan pemula.
+
+---
+
+## ⚡ **Cara Menjalankan Program**
+
+Pastikan Anda sudah menginstal *compiler* seperti **GCC**.
+Kemudian jalankan perintah berikut di terminal:
+
 ```bash
 gcc nama_file.c -o hasil
 ./hasil
-
 ```
-## 🧠 Tujuan Repo Ini
-> “Ngoding bukan tentang seberapa cepat lo hafal syntax, tapi seberapa ngerti lo sama logikanya.”
 
-Repo ini saya buat:
-- Untuk **ngasah logika dan algoritma dasar**
-- Sebagai **arsip pembelajaran pribadi**
-- Untuk **berbagi contoh dasar bahasa C** ke teman-teman mahasiswa lain
-- Biar bisa jadi **portofolio kecil** di GitHub 😎
+Contoh:
 
----
-
-## 🧩 Kontak / Connect
-
-Kalau mau diskusi atau belajar bareng, bisa reach out ke:
-
-GitHub: Farhan Arbi Utomo (Chieellesaxions)
-
-IG: @arbiifarhan / @chieellesaxions
-
-Email: farhanarbiutomo1@email.com
-
-
-# 🚀 Basic C Programming — Pemrograman Dasar Bahasa C
-
-Hey everyone! 👋  
-This repository contains my learning progress about the **C programming language** — the legendary language that became the foundation for many modern ones.  
-I upload my work here to **track my own progress** and **help other learners** who are also studying the basics of C. 💡
+```bash
+gcc hello_world.c -o hello
+./hello
+```
 
 ---
 
-## 📚 Topics Covered
-- 🖥️ `hello_world.c` — the classic first program 😎  
-- 🔁 `looping.c` — introduction to for, while, and do-while loops  
-- 🧩 `if_else.c` — basic conditional branching  
-- 📦 `array.c` — working with one-dimensional arrays  
-- ⚙️ `fungsi.c` — learning how to create and call functions  
+## 🧠 **Tujuan Repositori Ini**
+
+> “Ngoding bukan tentang seberapa cepat kamu hafal sintaks, tapi seberapa dalam kamu memahami logikanya.”
+
+Repositori ini dibuat untuk:
+
+* Melatih **logika dan algoritma dasar**
+* Menjadi **arsip pembelajaran pribadi**
+* Berbagi **contoh dasar bahasa C** untuk sesama mahasiswa
+* Membangun **portofolio kecil di GitHub** 😎
 
 ---
 
-## ⚡ How to Run the Program
-Make sure you have a C compiler like **GCC** installed.  
-Then run the commands below in your terminal:
+## 🧩 **Kontak & Koneksi**
+
+Jika ingin berdiskusi, belajar bareng, atau sekadar sharing pengalaman, silakan hubungi saya melalui:
+
+* **GitHub** : [Farhan Arbi Utomo (Chieellesaxions)](https://github.com/Chieellesaxions)
+* **Instagram** : [@arbiifarhan](https://instagram.com/arbiifarhan) / [@chieellesaxions](https://instagram.com/chieellesaxions)
+* **Email** : [farhanarbiutomo1@gmail.com](mailto:farhanarbiutomo1@gmail.com)
+
+---
+
+# 🚀 **Basic C Programming — Fundamental of C Language**
+
+Hey everyone! 👋
+This repository contains my learning journey in the **C programming language** — a legendary language that has become the foundation for many modern programming languages.
+I created this repository to **track my progress** and **help others** who are also learning the basics of C. 💡
+
+---
+
+## 📚 **Topics Covered**
+
+* 🖥️ `hello_world.c` — The classic first program 😎
+* 🔁 `looping.c` — Introduction to *for*, *while*, and *do-while* loops
+* 🧩 `if_else.c` — Basic conditional branching
+* 📦 `array.c` — Working with one-dimensional arrays
+* ⚙️ `function.c` — Understanding and using functions
+
+---
+
+## ⚡ **How to Run the Program**
+
+Make sure you have a C compiler like **GCC** installed.
+Then execute the following commands in your terminal:
+
 ```bash
 gcc filename.c -o output
 ./output
 ```
-## 🧠 Purpose of This Repository
+
+---
+
+## 🧠 **Purpose of This Repository**
 
 > “Programming isn’t about how fast you memorize syntax — it’s about how well you understand the logic behind it.”
 
-I created this repo to:
-- Sharpen my logic and algorithmic thinking
-- Serve as a personal learning archive
-- Share basic C programming examples with fellow students
-- Build a small personal portfolio on GitHub 😎
+This repository aims to:
 
-🧩 Contact / Connect
+* Strengthen my **logical and algorithmic thinking**
+* Serve as a **personal learning archive**
+* Share **basic C examples** with other students
+* Build a **mini portfolio** on GitHub 😎
 
-If you’d like to discuss or learn together, feel free to reach out:
+---
 
-GitHub    : Farhan Arbi Utomo (Chieellesaxions)
+## 🧩 **Contact / Connect**
 
-Instagram : @arbiifarhan / @chieellesaxions
+Feel free to connect or discuss anything related to programming:
 
-Email     : farhanarbiutomo1@gmail.com
+* **GitHub** : [Farhan Arbi Utomo (Chieellesaxions)](https://github.com/Chieellesaxions)
+* **Instagram** : [@arbiifarhan](https://instagram.com/arbiifarhan) / [@chieellesaxions](https://instagram.com/chieellesaxions)
+* **Email** : [farhanarbiutomo1@gmail.com](mailto:farhanarbiutomo1@gmail.com)
+
+---
+
+✨ *Semoga repo ini bermanfaat bagi siapa pun yang baru memulai perjalanan di dunia pemrograman C. Selamat belajar dan terus bereksperimen!* 🚀
+
+---
+
