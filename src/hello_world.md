@@ -55,13 +55,14 @@ Hello World!
 
 ## 🚀 Kesimpulan
 
-Dengan cuma beberapa baris, lo udah berhasil bikin program pertama yang:
+Dengan cuma beberapa baris, kamu sudah berhasil bikin program pertama yang:
 
 - Punya struktur lengkap (#include, main, return)
 
 - Menghasilkan output ke layar
 
 - Siap dikembangkan ke tahap berikutnya
+
 
 
 
