@@ -1,5 +1,5 @@
-# 🧩 2. Input & Output — Interaksi Dasar dengan User
 
+# 🧩 2. Input & Output — Interaksi Dasar dengan Pengguna
 
 ```c
 // Filename: input_output.c
@@ -14,93 +14,99 @@ int main() {
     char nama[50];     // Array karakter untuk menyimpan nama (maksimal 49 huruf + '\0')
 
     // ======== OUTPUT ========
-    printf("Masukkan nama kamu: ");   // Menampilkan teks ke layar (tanpa newline)
+    printf("Masukkan nama Anda: ");   // Menampilkan teks ke layar tanpa berpindah baris
 
     // ======== INPUT (string) ========
-    scanf("%49s", nama);  // Menerima input string dari user, disimpan ke variabel 'nama'
-                          // %49s berarti maksimal 49 karakter agar tidak kelebihan kapasitas
+    scanf("%49s", nama);  // Membaca input string dari pengguna dan menyimpannya ke variabel 'nama'
+                          // %49s berarti maksimal 49 karakter agar tidak melebihi kapasitas
 
     // ======== OUTPUT ========
-    printf("Masukkan umur kamu: ");   // Menampilkan teks baru
+    printf("Masukkan umur Anda: ");   // Menampilkan teks baru di layar
 
     // ======== INPUT (integer) ========
-    scanf("%d", &umur);   // Menerima input integer, disimpan ke variabel 'umur'
-                          // Gunakan & (alamat) karena scanf butuh lokasi memori variabel
+    scanf("%d", &umur);   // Membaca input integer dan menyimpannya ke variabel 'umur'
+                          // Tanda '&' digunakan untuk mengambil alamat memori variabel
 
     // ======== OUTPUT (gabungan teks + variabel) ========
-    printf("\nHalo %s! 👋\n", nama);      // Tampilkan nama yang diinput user
-    printf("Umur kamu %d tahun ya!\n", umur); // Tampilkan umur yang diinput user
+    printf("\nHalo %s! 👋\n", nama);          // Menampilkan nama yang dimasukkan pengguna
+    printf("Umur Anda %d tahun.\n", umur);   // Menampilkan umur yang dimasukkan pengguna
 
-    return 0;   // Mengembalikan nilai 0 (menandakan program selesai dengan sukses)
+    return 0;   // Menandakan program berakhir dengan sukses
 }
 ```
 
+---
+
 ## 🧠 Penjelasan Program
 
-Program ini ngajarin dasar **interaksi antara user dan program** lewat dua fungsi penting:
+Program di atas memperkenalkan **interaksi dasar antara pengguna dan program** menggunakan dua fungsi utama dalam bahasa C, yaitu:
 
-* `printf()` → buat **nampilin teks ke layar**
-* `scanf()` → buat **nerima input dari user**
+* `printf()` — digunakan untuk **menampilkan informasi atau teks ke layar.**
+* `scanf()` — digunakan untuk **membaca input dari pengguna.**
 
-Program bakal minta kamu masukin nama dan umur, lalu nampilin hasilnya lagi di layar.
+Pada program ini, pengguna diminta untuk memasukkan **nama** dan **umur**, kemudian program akan menampilkan kembali hasil input tersebut.
 
 ---
 
 ## 📖 Penjabaran Baris Demi Baris
 
-| **Baris** | **Kode**                           | **Penjelasan**                                                                                  |
-| :-------: | :--------------------------------- | :---------------------------------------------------------------------------------------------- |
-|     5     | `#include <stdio.h>`               | Mengimpor *header file* standar input/output. Diperlukan untuk `printf()` dan `scanf()`.        |
-|     8     | `int umur;`                        | Deklarasi variabel bertipe integer untuk menyimpan umur.                                        |
-|     9     | `char nama[50];`                   | Membuat array karakter untuk menyimpan nama (maksimal 49 karakter + 1 null terminator).         |
-|     12    | `printf("Masukkan nama kamu: ");`  | Menampilkan pesan agar user memasukkan nama.                                                    |
-|     15    | `scanf("%49s", nama);`             | Membaca input berupa string dari user dan menyimpannya ke variabel `nama`.                      |
-|     19    | `printf("Masukkan umur kamu: ");`  | Menampilkan pesan agar user memasukkan umur.                                                    |
-|     22    | `scanf("%d", &umur);`              | Membaca input berupa integer dan menyimpannya ke `umur`. Gunakan `&` untuk ambil alamat memori. |
-|   26–27   | `printf("\nHalo %s! 👋\n", nama);` | Menampilkan kembali nama dan umur yang sudah dimasukkan user.                                   |
-|     29    | `return 0;`                        | Mengakhiri fungsi `main` dan menandakan program berjalan sukses.                                |
+| **Baris** | **Kode**                           | **Penjelasan**                                                                                     |
+| :-------: | :--------------------------------- | :------------------------------------------------------------------------------------------------- |
+|     5     | `#include <stdio.h>`               | Mengimpor *header file* standar input/output agar fungsi `printf()` dan `scanf()` dapat digunakan. |
+|     8     | `int umur;`                        | Deklarasi variabel bertipe *integer* untuk menyimpan umur.                                         |
+|     9     | `char nama[50];`                   | Membuat array karakter untuk menyimpan nama (maksimal 49 karakter + 1 null terminator).            |
+|     12    | `printf("Masukkan nama Anda: ");`  | Menampilkan pesan agar pengguna memasukkan nama.                                                   |
+|     15    | `scanf("%49s", nama);`             | Membaca input berupa string dari pengguna dan menyimpannya ke variabel `nama`.                     |
+|     19    | `printf("Masukkan umur Anda: ");`  | Menampilkan pesan agar pengguna memasukkan umur.                                                   |
+|     22    | `scanf("%d", &umur);`              | Membaca input berupa bilangan bulat dan menyimpannya ke variabel `umur`.                           |
+|   26–27   | `printf("\nHalo %s! 👋\n", nama);` | Menampilkan kembali nama dan umur yang telah dimasukkan pengguna.                                  |
+|     29    | `return 0;`                        | Mengakhiri fungsi `main()` dan menandakan bahwa program berjalan dengan sukses.                    |
 
 ---
 
-## ⚙️ Konsep Penting
+## ⚙️ Konsep Penting: Format Specifier
 
-Setiap kali pakai `scanf()` atau `printf()`, kita butuh *format specifier* biar data yang ditangani sesuai tipe-nya:
+Dalam fungsi `scanf()` dan `printf()`, digunakan **format specifier** untuk menyesuaikan tipe data yang diproses.
 
-| **Simbol** | **Tipe Data**                    | **Contoh**                 |
-| :--------: | :------------------------------- | :------------------------- |
-|    `%s`    | String (teks)                    | `"Farhan"`                 |
-|    `%d`    | Integer (bilangan bulat)         | `19`                       |
-|     `&`    | Alamat variabel (wajib di scanf) | `&umur`                    |
-|    `\n`    | Baris baru (newline)             | pindah ke baris berikutnya |
-
----
-
-## 💡 Fun Fact
-
-🔸 Fungsi `scanf()` berasal dari kata **scan formatted**, artinya membaca input dengan format tertentu.
-🔸 Banyak pemula lupa nambah `&` di depan variabel waktu pakai `scanf()`, hasilnya input gak kebaca 😅
+| **Simbol** | **Tipe Data**                           | **Contoh Nilai** | **Keterangan**                                     |
+| :--------: | :-------------------------------------- | :--------------- | :------------------------------------------------- |
+|    `%s`    | String (teks)                           | `"Farhan"`       | Untuk membaca atau menampilkan teks.               |
+|    `%d`    | Integer (bilangan bulat)                | `19`             | Untuk membaca atau menampilkan bilangan bulat.     |
+|     `&`    | Alamat variabel (hanya untuk `scanf()`) | `&umur`          | Menunjukkan lokasi penyimpanan variabel di memori. |
+|    `\n`    | Baris baru (*newline*)                  | —                | Memindahkan kursor ke baris berikutnya.            |
 
 ---
 
-✅ **Output Program**
+## 💡 Fakta Menarik
+
+🔹 Nama fungsi `scanf()` berasal dari singkatan *scan formatted*, yang berarti “membaca data dengan format tertentu.”
+🔹 Kesalahan umum pemula adalah **lupa menambahkan tanda `&`** pada variabel saat menggunakan `scanf()`. Akibatnya, program tidak dapat menyimpan nilai input dengan benar.
+
+---
+
+## ✅ Output Program
 
 ```yaml
-Masukkan nama kamu: Farhan
-Masukkan umur kamu: 19
+Masukkan nama Anda: Farhan
+Masukkan umur Anda: 19
 
 Halo Farhan! 👋
-Umur kamu 19 tahun ya!
+Umur Anda 19 tahun.
 ```
 
 ---
 
 ## 🚀 Kesimpulan
 
-Di bab ini lo udah belajar gimana caranya program bisa **berkomunikasi dua arah** sama user.
+Pada bab ini, Anda telah mempelajari dasar komunikasi antara program dan pengguna.
+Dengan memahami fungsi **input dan output**, Anda dapat mulai membuat program yang bersifat interaktif.
 
-* Gunakan `printf()` buat output
-* Gunakan `scanf()` buat input
-* Pahami format data dan simbol `%`
+Ringkasan:
+
+* `printf()` digunakan untuk menampilkan data ke layar.
+* `scanf()` digunakan untuk membaca data dari pengguna.
+* Gunakan **format specifier** yang sesuai agar data terbaca dan tampil dengan benar.
 
 ---
 
+← [Bab Sebelumnya](hello_world.md) | [Bab Selanjutnya](Variabel-Tipe-Data.md) →
