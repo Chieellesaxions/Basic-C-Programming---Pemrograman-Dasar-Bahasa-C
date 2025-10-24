@@ -1,4 +1,6 @@
-#  🧩 3. Variabel dan Tipe Data — Pondasi Logika Pemrograman
+
+
+# 🧩 3. Variabel dan Tipe Data — Pondasi Logika Pemrograman
 
 ```c
 // Filename: variabel_tipedata.c
@@ -15,7 +17,7 @@ int main() {
     char inisial = 'F';            // Karakter tunggal (char)
     char nama[50] = "Farhan";      // String (array karakter)
 
-    // Output nilai variabel ke layar
+    // Menampilkan nilai variabel ke layar
     printf("Nama: %s\n", nama);
     printf("Inisial: %c\n", inisial);
     printf("Umur: %d tahun\n", umur);
@@ -29,55 +31,53 @@ int main() {
 
 ## 🧠 Penjelasan Program
 
-Program ini ngenalin **cara menyimpan data di memori** pakai variabel dengan tipe data yang berbeda-beda.
+Program di atas memperkenalkan konsep dasar **variabel** dan **tipe data** dalam bahasa C.
+Variabel berfungsi sebagai **wadah penyimpanan data di memori komputer**, sementara tipe data menentukan **jenis nilai** yang dapat disimpan dan **cara penggunaannya**.
 
-Tiap tipe data punya fungsi dan format sendiri waktu ditampilkan ke layar.
+Setiap tipe data memiliki karakteristik dan format yang berbeda saat digunakan di dalam program, terutama ketika ditampilkan dengan fungsi `printf()`.
 
 ---
 
 ## 📖 Penjabaran Baris Demi Baris
 
-| **Baris** | **Kode**                    | **Penjelasan**                                              |
-| :-------: | :-------------------------- | :---------------------------------------------------------- |
-|     5     | `#include <stdio.h>`        | Mengimpor library standar input/output.                     |
-|     8     | `int umur = 19;`            | Menyimpan angka bulat (integer) ke variabel `umur`.         |
-|     9     | `float tinggi = 170.5;`     | Menyimpan angka desimal ke variabel `tinggi`.               |
-|     10    | `char inisial = 'F';`       | Menyimpan satu karakter (huruf, angka, simbol).             |
-|     11    | `char nama[50] = "Farhan";` | Menyimpan string (teks) ke dalam array karakter.            |
-|   14–17   | `printf(...)`               | Menampilkan isi variabel dengan format sesuai tipe datanya. |
-|     19    | `return 0;`                 | Mengakhiri fungsi utama `main()`.                           |
+| **Baris** | **Kode**                    | **Penjelasan**                                                                      |
+| :-------: | :-------------------------- | :---------------------------------------------------------------------------------- |
+|     5     | `#include <stdio.h>`        | Mengimpor *header file* standar untuk fungsi input dan output seperti `printf()`.   |
+|     8     | `int umur = 19;`            | Mendeklarasikan variabel `umur` bertipe *integer* untuk menyimpan bilangan bulat.   |
+|     9     | `float tinggi = 170.5;`     | Mendeklarasikan variabel `tinggi` bertipe *float* untuk menyimpan bilangan desimal. |
+|     10    | `char inisial = 'F';`       | Menyimpan satu karakter dalam variabel `inisial`.                                   |
+|     11    | `char nama[50] = "Farhan";` | Menyimpan string atau teks dalam *array* karakter sepanjang 50 elemen.              |
+|   14–17   | `printf(...)`               | Menampilkan nilai setiap variabel ke layar dengan format yang sesuai.               |
+|     19    | `return 0;`                 | Menandakan program selesai dijalankan dengan sukses.                                |
 
 ---
 
-## ⚙️ Tipe Data Umum dalam Bahasa C
+## ⚙️ Jenis-Jenis Tipe Data dalam Bahasa C
 
-| **Tipe Data** | **Format Specifier** | **Contoh Nilai**    | **Keterangan**                               |
-| :------------ | :------------------- | :------------------ | :------------------------------------------- |
-| `int`         | `%d`                 | `10`, `-5`          | Menyimpan bilangan bulat                     |
-| `float`       | `%f`                 | `3.14`, `-2.5`      | Menyimpan bilangan desimal (presisi tunggal) |
-| `double`      | `%lf`                | `3.141592`          | Bilangan desimal presisi ganda               |
-| `char`        | `%c`                 | `'A'`, `'9'`, `'#'` | Menyimpan satu karakter                      |
-| `char[]`      | `%s`                 | `"Farhan"`          | String (kumpulan karakter)                   |
+| **Tipe Data** | **Format Specifier** | **Contoh Nilai** | **Keterangan**                                     |
+| :------------ | :------------------- | :--------------- | :------------------------------------------------- |
+| `int`         | `%d`                 | `10`, `-5`       | Menyimpan bilangan bulat positif atau negatif.     |
+| `float`       | `%f`                 | `3.14`, `-2.5`   | Menyimpan bilangan desimal dengan presisi tunggal. |
+| `double`      | `%lf`                | `3.141592`       | Menyimpan bilangan desimal dengan presisi ganda.   |
+| `char`        | `%c`                 | `'A'`, `'9'`     | Menyimpan satu karakter saja.                      |
+| `char[]`      | `%s`                 | `"Farhan"`       | Menyimpan kumpulan karakter (string).              |
 
 ---
 
 ## 💡 Catatan Penting
 
-🔹 Variabel harus **dideklarasikan sebelum digunakan**.
-
-🔹 Nama variabel **tidak boleh mengandung spasi**, diawali huruf, dan *case-sensitive*.
-
-🔹 Gunakan format specifier yang sesuai saat menampilkan data dengan `printf()`.
-
-🔹 Untuk angka desimal, lo bisa atur jumlah digit setelah koma, misalnya:
+🔹 Variabel **harus dideklarasikan sebelum digunakan**.
+🔹 Nama variabel **tidak boleh mengandung spasi**, harus diawali huruf, dan bersifat **case-sensitive** (misalnya `Nama` dan `nama` dianggap berbeda).
+🔹 Gunakan **specifier format yang sesuai** ketika mencetak nilai menggunakan `printf()`.
+🔹 Jumlah angka di belakang koma pada tipe `float` atau `double` dapat diatur dengan format seperti berikut:
 
 ```c
-printf("%.2f", tinggi); // tampilkan dua angka di belakang koma
+printf("%.2f", tinggi); // Menampilkan dua angka di belakang koma
 ```
 
 ---
 
-✅ **Output Program**
+## ✅ Output Program
 
 ```yaml
 Nama         : Farhan
@@ -88,13 +88,15 @@ Tinggi badan : 170.5 cm
 
 ---
 
-## 🚀 Kesimpulan
+## 📚 Kesimpulan
 
-Dari bab ini lo udah paham dasar banget:
+Dari pembahasan ini, dapat disimpulkan bahwa:
 
-* Cara **mendeklarasikan variabel**
-* Perbedaan **tipe data**
-* Cara **menampilkan nilai variabel ke layar**
-
+1. Variabel berfungsi sebagai tempat penyimpanan nilai yang digunakan program.
+2. Tipe data menentukan jenis nilai dan cara pemrosesannya.
+3. Bahasa C menggunakan *format specifier* pada fungsi `printf()` untuk menampilkan data dengan benar.
+4. Pemahaman tentang variabel dan tipe data adalah fondasi untuk memahami logika dan alur program yang lebih kompleks.
 
 ---
+
+← [Bab Sebelumnya](input_output.md) | [Bab Selanjutnya](Percabangan(If,Else,Switch).md) →
