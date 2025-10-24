@@ -99,4 +99,4 @@ Dari pembahasan ini, dapat disimpulkan bahwa:
 
 ---
 
-← [Bab 2 : Input & Output — Interaksi Dasar dengan Pengguna](input_output.md) | [Bab 4 : Percabangan (If, Else, Switch) — Logika Keputusan dalam Program](Percabangan(If,Else,Switch).md) →
+← [Bab 2 : Input & Output — Interaksi Dasar dengan Pengguna](input_output.md) | [Bab 4 : Percabangan (If, Else, Switch) — Logika Keputusan dalam Program](percabangan_else_if_switch.md) →
