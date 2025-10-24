@@ -146,8 +146,9 @@ Meski terlihat sederhana, konsep ini merupakan **pondasi utama** dari seluruh pr
 
 ---
 
-← [Pendahuluan](readme.md) | [Bab 2: Input dan Output](input_output.md) →
+← [Pendahuluan](README.md) | [Bab 2: Input dan Output](input_output.md) →
 
 ---
 
 Apakah kamu mau aku lanjutkan bab **3 (Variabel dan Tipe Data)** nanti dengan format **lengkap seperti ini** juga (lengkap, rapi, baku, dan mudah dipahami)?
+
