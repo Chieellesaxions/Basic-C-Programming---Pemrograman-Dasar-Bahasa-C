@@ -63,6 +63,9 @@ Dengan cuma beberapa baris, kamu sudah berhasil bikin program pertama yang:
 
 - Siap dikembangkan ke tahap berikutnya
 
+← [Bab Sebelumnya](nama-file-sebelumnya.md) | [Bab Selanjutnya](nama-file-selanjutnya.md) →
+
+
 
 
 
