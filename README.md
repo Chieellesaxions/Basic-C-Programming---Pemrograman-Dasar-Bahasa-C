@@ -13,7 +13,7 @@ Saya buat repo ini untuk **melacak progres belajar pribadi** sekaligus **berbagi
 1. [Hello World — Program Pertama](src/hello_world.md) (Bahasa Indonesia)
 2. [Input & Output Dasar](src/input_output.md) (Bahasa Indonesia)
 3. [Variabel dan Tipe Data](src/variabel_tipe_data.md) (Bahasa Indonesia)
-4. [Percabangan (If, Else, Switch)](percabangan_else_if_switch.md) (Bahasa Indonesia)
+4. [Percabangan (If, Else, Switch)](src/percabangan_else_if_switch.md) (Bahasa Indonesia)
 5. [Perulangan (For, While, Do-While)](src/looping.md) (Bahasa Indonesia)
 6. [Array](src/array.md) (Bahasa Indonesia)
 7. [Fungsi (Function)](src/function.md) (Bahasa Indonesia)
