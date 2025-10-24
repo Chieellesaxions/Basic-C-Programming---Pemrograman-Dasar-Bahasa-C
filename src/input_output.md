@@ -109,4 +109,4 @@ Ringkasan:
 
 ---
 
-← [Bab 1. Hello World — Program Pertama](hello_world.md) | [Bab Selanjutnya](Variabel-Tipe-Data.md) →
+← [Bab 1 : Hello World — Program Pertama](hello_world.md) | [Bab Selanjutnya](Variabel-Tipe-Data.md) →
