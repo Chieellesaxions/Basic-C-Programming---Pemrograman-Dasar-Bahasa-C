@@ -109,4 +109,4 @@ Ringkasan:
 
 ---
 
-← [Bab 1 : Hello World — Program Pertama](hello_world.md) | [Bab  3 : Variabel dan Tipe Data — Pondasi Logika Pemrograman](Variabel-Tipe-Data.md) →
+← [Bab 1 : Hello World — Program Pertama](hello_world.md) | [Bab  3 : Variabel dan Tipe Data — Pondasi Logika Pemrograman](variabel_tipe_data.md) →
