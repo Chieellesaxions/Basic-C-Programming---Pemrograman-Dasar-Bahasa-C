@@ -3,82 +3,92 @@
 
 ```c
 // Filename: array.c
-// Description: Contoh penggunaan array 1 dimensi dalam bahasa C
+// Description: Contoh penggunaan array satu dimensi dalam bahasa C
 // Author: Farhan Arbi Utomo
-// Date: 23 Oct 2025
+// Date: October 23, 2025
 
-#include <stdio.h>  // Header standar untuk input/output
+#include <stdio.h>  // Header standar untuk input dan output
 
 int main() {
     // ===============================
     // ======== DEKLARASI ARRAY ======
     // ===============================
-
     int angka[5];  // Membuat array dengan 5 elemen bertipe integer (indeks 0–4)
 
     // ===============================
     // ======== INPUT DATA ===========
     // ===============================
-
     printf("Masukkan 5 angka:\n");
     for (int i = 0; i < 5; i++) {
         printf("Angka ke-%d: ", i + 1);
-        scanf("%d", &angka[i]);  // Simpan input user ke posisi ke-i
+        scanf("%d", &angka[i]);  // Menyimpan input pengguna ke elemen array ke-i
     }
 
     // ===============================
     // ======== OUTPUT DATA ==========
     // ===============================
-
-    printf("\nData yang kamu masukkan:\n");
+    printf("\nData yang Anda masukkan:\n");
     for (int i = 0; i < 5; i++) {
-        printf("Indeks %d = %d\n", i, angka[i]);  // Tampilkan isi array
+        printf("Indeks %d = %d\n", i, angka[i]);  // Menampilkan isi array
     }
 
     // ===============================
     // ======== PROSES TAMBAHAN ======
     // ===============================
-
     int total = 0;
     for (int i = 0; i < 5; i++) {
-        total += angka[i];  // Menjumlahkan semua elemen array
+        total += angka[i];  // Menjumlahkan seluruh elemen array
     }
 
-    float rata = total / 5.0;  // Hitung rata-rata (pakai float biar hasil desimal)
+    float rata = total / 5.0;  // Menghitung rata-rata (menggunakan float agar hasil desimal)
 
     printf("\nTotal: %d\n", total);
-    printf("Rata-rata: %.2f\n", rata);  // %.2f = tampilkan 2 angka di belakang koma
+    printf("Rata-rata: %.2f\n", rata);  // %.2f = menampilkan 2 angka di belakang koma
 
-    return 0;  // Selesai
+    return 0;  // Mengembalikan nilai 0 menandakan program selesai dengan sukses
 }
 ```
 
 ---
 
-## 🧠 Penjelasan Program
+## 🧠 Penjelasan Umum
 
-Program ini mengenalkan **array 1 dimensi**, yaitu variabel yang bisa menyimpan **banyak nilai dengan tipe data yang sama**.
-Daripada bikin banyak variabel (`a1, a2, a3, ...`), cukup pakai satu nama aja (`angka[]`) dan bedakan lewat **indeks**.
+Program ini menjelaskan cara menggunakan **array satu dimensi** dalam bahasa C.
+Array adalah sekumpulan elemen yang **memiliki tipe data yang sama** dan disimpan dalam satu nama variabel.
+Setiap elemen di dalam array dapat diakses menggunakan **indeks** (nomor urut mulai dari 0).
+
+Dengan array, kita dapat menyimpan banyak data sekaligus tanpa perlu mendeklarasikan banyak variabel satu per satu.
+Misalnya, dibanding menulis:
+
+```c
+int a1, a2, a3, a4, a5;
+```
+
+lebih efisien menggunakan:
+
+```c
+int angka[5];
+```
 
 ---
 
 ## 📖 Penjabaran Baris Demi Baris
 
-| **Baris** | **Kode**                              | **Penjelasan**                                            |
-| :-------: | :------------------------------------ | :-------------------------------------------------------- |
-|    1–5    | `// ...`                              | Komentar pembuka yang berisi info file                    |
-|     7     | `#include <stdio.h>`                  | Mengimpor header standar input/output                     |
-|     10    | `int angka[5];`                       | Deklarasi array berisi 5 elemen bertipe integer           |
-|   15–19   | `for (int i = 0; i < 5; i++) { ... }` | Perulangan untuk menerima input 5 kali                    |
-|     17    | `scanf("%d", &angka[i]);`             | Menyimpan nilai yang dimasukkan user ke elemen array ke-i |
-|   23–27   | `for (int i = 0; i < 5; i++)`         | Menampilkan kembali nilai yang sudah disimpan             |
-|   31–33   | `total += angka[i];`                  | Menjumlahkan seluruh nilai dalam array                    |
-|     35    | `float rata = total / 5.0;`           | Menghitung rata-rata dengan hasil desimal                 |
-|   38–39   | `printf...`                           | Menampilkan total dan rata-rata ke layar                  |
+| **Baris** | **Kode**                              | **Penjelasan**                                                                              |
+| :-------: | :------------------------------------ | :------------------------------------------------------------------------------------------ |
+|    1–5    | `// ...`                              | Komentar yang berisi keterangan file, penulis, dan tanggal pembuatan.                       |
+|     7     | `#include <stdio.h>`                  | Mengimpor *header* standar untuk fungsi input dan output, seperti `printf()` dan `scanf()`. |
+|     11    | `int angka[5];`                       | Mendeklarasikan array berisi 5 elemen bertipe `int` dengan indeks 0–4.                      |
+|   16–20   | `for (int i = 0; i < 5; i++) { ... }` | Melakukan pengulangan untuk menerima 5 input angka dari pengguna.                           |
+|     18    | `scanf("%d", &angka[i]);`             | Menyimpan nilai yang diinput ke elemen array sesuai urutan indeks.                          |
+|   24–28   | `for (int i = 0; i < 5; i++)`         | Menampilkan kembali semua nilai yang telah disimpan dalam array.                            |
+|   32–34   | `total += angka[i];`                  | Menjumlahkan seluruh nilai di dalam array untuk mendapatkan total keseluruhan.              |
+|     36    | `float rata = total / 5.0;`           | Menghitung rata-rata dengan hasil bertipe desimal menggunakan `float`.                      |
+|   39–40   | `printf(...)`                         | Menampilkan hasil total dan rata-rata ke layar.                                             |
 
 ---
 
-## ✅ Contoh Output Program
+## ✅ Contoh Hasil Eksekusi Program
 
 ```yaml
 Masukkan 5 angka:
@@ -88,7 +98,7 @@ Angka ke-3: 30
 Angka ke-4: 40
 Angka ke-5: 50
 
-Data yang kamu masukkan:
+Data yang Anda masukkan:
 Indeks 0 = 10
 Indeks 1 = 20
 Indeks 2 = 30
@@ -101,27 +111,31 @@ Rata-rata: 30.00
 
 ---
 
-## ⚙️ Struktur Umum Array di C
+## ⚙️ Struktur Umum Array dalam Bahasa C
+
+Format umum deklarasi array adalah sebagai berikut:
 
 ```c
 tipe_data nama_array[jumlah_elemen];
 ```
 
-Contoh:
+Contoh penggunaan:
 
 ```c
-int nilai[3];      // Array berisi 3 integer
+int nilai[3];      // Array berisi 3 bilangan bulat
 float suhu[10];    // Array berisi 10 bilangan desimal
 char huruf[5];     // Array berisi 5 karakter
 ```
 
 ---
 
-## 💡 Tips
+## 💡 Tips Penting
 
-* Indeks array **selalu mulai dari 0**, bukan 1!
-* Hati-hati jangan akses `angka[5]` kalau array cuma punya 5 elemen — bakal error.
-* Kalau mau langsung isi tanpa input:
+* Indeks array **selalu dimulai dari 0**, bukan 1.
+  Artinya, elemen pertama terletak pada `array[0]`, bukan `array[1]`.
+* Jumlah elemen array **tidak boleh diakses melebihi batas**.
+  Misalnya, jika array berisi 5 elemen (`array[0]`–`array[4]`), maka `array[5]` tidak valid.
+* Array juga dapat diinisialisasi langsung tanpa perlu input pengguna:
 
   ```c
   int angka[5] = {10, 20, 30, 40, 50};
@@ -131,11 +145,14 @@ char huruf[5];     // Array berisi 5 karakter
 
 ## 🚀 Kesimpulan
 
-Dari bab ini kamu sudah belajar:
+Melalui contoh ini, Anda telah memahami:
 
-* Konsep **array 1 dimensi**
-* Cara **input dan output** data dari array
-* Cara **menghitung total dan rata-rata**
-* Kenapa array penting buat nyimpen data banyak secara efisien
+* Konsep dasar **array satu dimensi**
+* Cara melakukan **input dan output** data menggunakan array
+* Proses **menjumlahkan dan menghitung rata-rata** dari elemen array
+* Pentingnya array untuk menyimpan dan mengelola kumpulan data dengan lebih efisien
 
+---
+
+← [Bab Sebelumnya](looping.md) | [Bab Selanjutnya](function.md) →
 
