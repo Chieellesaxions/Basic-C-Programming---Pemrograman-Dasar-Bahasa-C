@@ -255,5 +255,5 @@ Pada bab ini, Anda telah mempelajari:
 Dengan memahami konsep ini, Anda dapat membuat program yang lebih **efisien**, **dinamis**, dan **mudah dikembangkan** — mulai dari pengulangan sederhana hingga simulasi dan perhitungan otomatis.
 
 ---
-← [Bab 4 : Percabangan (If, Else, Switch) — Logika Keputusan dalam Program](Percabangan(If,Else,Switch).md) | [Bab 6 : Array — Kumpulan Data dalam Satu Variabel](array.md) →
+← [Bab 4 : Percabangan (If, Else, Switch) — Logika Keputusan dalam Program](percabangan_else_if_switch.md) | [Bab 6 : Array — Kumpulan Data dalam Satu Variabel](array.md) →
 
