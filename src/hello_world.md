@@ -150,5 +150,4 @@ Meski terlihat sederhana, konsep ini merupakan **pondasi utama** dari seluruh pr
 
 ---
 
-Apakah kamu mau aku lanjutkan bab **3 (Variabel dan Tipe Data)** nanti dengan format **lengkap seperti ini** juga (lengkap, rapi, baku, dan mudah dipahami)?
 
