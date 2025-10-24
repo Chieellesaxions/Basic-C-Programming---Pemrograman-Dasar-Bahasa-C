@@ -10,13 +10,13 @@ Saya buat repo ini untuk **melacak progres belajar pribadi** sekaligus **berbagi
 
 ## 📚 **Materi yang Dibahas**
 
-1. [Hello World — Program Pertama](src/hello_world.md)
-2. [Input & Output Dasar](src/input_output.md)
-3. [Variabel dan Tipe Data](src/Variabel-Tipe-Data.md)
-4. [Percabangan (If, Else, Switch)](src/Percabangan%28If,Else,Switch%29.md)
-5. [Perulangan (For, While, Do-While)](src/looping.md)
-6. [Array](src/array.md)
-7. [Fungsi (Function)](src/function.md)
+1. [Hello World — Program Pertama](src/hello_world.md) (Bahasa Indonesia)
+2. [Input & Output Dasar](src/input_output.md) (Bahasa Indonesia)
+3. [Variabel dan Tipe Data](src/Variabel-Tipe-Data.md) (Bahasa Indonesia)
+4. [Percabangan (If, Else, Switch)](src/Percabangan%28If,Else,Switch%29.md) (Bahasa Indonesia)
+5. [Perulangan (For, While, Do-While)](src/looping.md) (Bahasa Indonesia)
+6. [Array](src/array.md) (Bahasa Indonesia)
+7. [Fungsi (Function)](src/function.md) (Bahasa Indonesia)
 
 📘 Semua materi ditulis dalam **Bahasa Indonesia**, agar mudah dipahami oleh mahasiswa dan pemula.
 
@@ -74,11 +74,11 @@ I created this repository to **track my progress** and **help others** who are a
 
 ## 📚 **Topics Covered**
 
-* 🖥️ `hello_world.c` — The classic first program 😎
-* 🔁 `looping.c` — Introduction to *for*, *while*, and *do-while* loops
-* 🧩 `if_else.c` — Basic conditional branching
-* 📦 `array.c` — Working with one-dimensional arrays
-* ⚙️ `function.c` — Understanding and using functions
+* 🖥️ `hello_world.c` — The classic first program 😎 (English = Coming soon)
+* 🔁 `looping.c` — Introduction to *for*, *while*, and *do-while* loops (English = Coming soon)
+* 🧩 `if_else.c` — Basic conditional branching (English = Coming soon)
+* 📦 `array.c` — Working with one-dimensional arrays (English = Coming soon)
+* ⚙️ `function.c` — Understanding and using functions (English = Coming soon)
 
 ---
 
