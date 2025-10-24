@@ -211,4 +211,4 @@ Dengan memahami percabangan, Anda dapat membuat program yang **dinamis**, **cerd
 
 ---
 
-← [Bab Sebelumnya](Variabel-Tipe-Data.md) | [Bab Selanjutnya](looping.md) →
+← [Bab 3 : Variabel dan Tipe Data — Pondasi Logika Pemrograman](Variabel-Tipe-Data.md) | [Bab Selanjutnya](looping.md) →
