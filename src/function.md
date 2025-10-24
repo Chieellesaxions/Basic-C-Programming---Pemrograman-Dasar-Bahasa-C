@@ -124,4 +124,4 @@ Dengan memahami fungsi, kita dapat:
 * Meningkatkan keterbacaan dan kemudahan pemeliharaan program
 
 ---
-← [Bab Sebelumnya](array.md)
+← [Bab 6 : Array — Kumpulan Data dalam Satu Variabel](array.md)
